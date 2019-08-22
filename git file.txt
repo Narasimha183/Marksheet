@@ -1,0 +1,410 @@
+782974@PC298821 MINGW64 ~/Documents/Practice
+$ vi deatails.php
+
+782974@PC298821 MINGW64 ~/Documents/Practice
+$ vi deatails.php
+
+782974@PC298821 MINGW64 ~/Documents/Practice
+$ git branch deatails
+fatal: Not a git repository (or any of the parent directories): .git
+
+782974@PC298821 MINGW64 ~/Documents/Practice
+$ git init
+Initialized empty Git repository in C:/Users/782974/Documents/Practice/.git/
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ vi deatails.php
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git config --global user.name 'Narasimha183'
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git config --global user.email 'narasimhavenna4@gmail.com'
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git add deatails.php
+warning: LF will be replaced by CRLF in deatails.php.
+The file will have its original line endings in your working directory.
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   deatails.php
+
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git commit -m "deatails are added"
+[master (root-commit) 7f6f1da] deatails are added
+ 1 file changed, 3 insertions(+)
+ create mode 100644 deatails.php
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ vi marks.php
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        marks.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ gir add marks.php
+bash: gir: command not found
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git add marks.php
+warning: LF will be replaced by CRLF in marks.php.
+The file will have its original line endings in your working directory.
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   marks.php
+
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git commit -m "marks are added"
+[master 7ea44d6] marks are added
+ 1 file changed, 4 insertions(+)
+ create mode 100644 marks.php
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git branch pdeatails
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ gut status
+bash: gut: command not found
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git checkout pdeatails
+Switched to branch 'pdeatails'
+
+782974@PC298821 MINGW64 ~/Documents/Practice (pdeatails)
+$ vi personal.php
+
+782974@PC298821 MINGW64 ~/Documents/Practice (pdeatails)
+$ git commit -m "personal deatails added"
+On branch pdeatails
+Untracked files:
+        personal.php
+
+nothing added to commit but untracked files present
+
+782974@PC298821 MINGW64 ~/Documents/Practice (pdeatails)
+$ git status
+On branch pdeatails
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        personal.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+782974@PC298821 MINGW64 ~/Documents/Practice (pdeatails)
+$ git commit -m 'personal deatails added'
+On branch pdeatails
+Untracked files:
+        personal.php
+
+nothing added to commit but untracked files present
+
+782974@PC298821 MINGW64 ~/Documents/Practice (pdeatails)
+$ git add personal.php
+warning: LF will be replaced by CRLF in personal.php.
+The file will have its original line endings in your working directory.
+
+782974@PC298821 MINGW64 ~/Documents/Practice (pdeatails)
+$ vi personal.php
+
+782974@PC298821 MINGW64 ~/Documents/Practice (pdeatails)
+$ git commit -m "personal deatails are added"
+[pdeatails ce814d7] personal deatails are added
+ 1 file changed, 3 insertions(+)
+ create mode 100644 personal.php
+
+782974@PC298821 MINGW64 ~/Documents/Practice (pdeatails)
+$ vi subject.php
+
+782974@PC298821 MINGW64 ~/Documents/Practice (pdeatails)
+$ git commit -m "subject deatails are added"
+On branch pdeatails
+Changes not staged for commit:
+        modified:   personal.php
+
+Untracked files:
+        subject.php
+
+no changes added to commit
+
+782974@PC298821 MINGW64 ~/Documents/Practice (pdeatails)
+$ vi subject.php
+
+782974@PC298821 MINGW64 ~/Documents/Practice (pdeatails)
+$ git commit -m "favorite games are added"
+On branch pdeatails
+Changes not staged for commit:
+        modified:   personal.php
+
+Untracked files:
+        subject.php
+
+no changes added to commit
+
+782974@PC298821 MINGW64 ~/Documents/Practice (pdeatails)
+$ git status
+On branch pdeatails
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   personal.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        subject.php
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+782974@PC298821 MINGW64 ~/Documents/Practice (pdeatails)
+$ git commit -m "subjects are added"
+On branch pdeatails
+Changes not staged for commit:
+        modified:   personal.php
+
+Untracked files:
+        subject.php
+
+no changes added to commit
+
+782974@PC298821 MINGW64 ~/Documents/Practice (pdeatails)
+$ git status
+On branch pdeatails
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   personal.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        subject.php
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+782974@PC298821 MINGW64 ~/Documents/Practice (pdeatails)
+$ git add personal.php
+warning: LF will be replaced by CRLF in personal.php.
+The file will have its original line endings in your working directory.
+
+782974@PC298821 MINGW64 ~/Documents/Practice (pdeatails)
+$ git commit -m '' personal
+error: pathspec 'personal' did not match any file(s) known to git.
+
+782974@PC298821 MINGW64 ~/Documents/Practice (pdeatails)
+$ git commit -m 'personal'
+[pdeatails 995013c] personal
+ 1 file changed, 1 insertion(+)
+
+782974@PC298821 MINGW64 ~/Documents/Practice (pdeatails)
+$ git add subject.php
+warning: LF will be replaced by CRLF in subject.php.
+The file will have its original line endings in your working directory.
+
+782974@PC298821 MINGW64 ~/Documents/Practice (pdeatails)
+$ git commit 'games'
+error: pathspec 'games' did not match any file(s) known to git.
+
+782974@PC298821 MINGW64 ~/Documents/Practice (pdeatails)
+$ git commit -m 'games'
+[pdeatails 32ad5fb] games
+ 1 file changed, 5 insertions(+)
+ create mode 100644 subject.php
+
+782974@PC298821 MINGW64 ~/Documents/Practice (pdeatails)
+$ git status
+On branch pdeatails
+nothing to commit, working tree clean
+
+782974@PC298821 MINGW64 ~/Documents/Practice (pdeatails)
+$ git checkout master
+Switched to branch 'master'
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git merge pdeatails
+Updating 7ea44d6..32ad5fb
+Fast-forward
+ personal.php | 4 ++++
+ subject.php  | 5 +++++
+ 2 files changed, 9 insertions(+)
+ create mode 100644 personal.php
+ create mode 100644 subject.php
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git remote
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git remote add origin git@github.com:Narasimha183/students.git
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git push -u origin master
+ssh: connect to host github.com port 22: Connection refused
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git push -uf origin master
+ssh: connect to host github.com port 22: Connection refused
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git clone git@github.com:Narasimha183/students.git
+Cloning into 'students'...
+ssh: connect to host github.com port 22: Connection refused
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ ssh-keygen -t rsa -b 4096 -C "narasimhavenna4@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/782974/.ssh/id_rsa):
+Created directory '/c/Users/782974/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/782974/.ssh/id_rsa.
+Your public key has been saved in /c/Users/782974/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:vdTCf0aPQgQINuohrufj81fE8GI3uAVSBJPlHIuCf0U narasimhavenna4@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|    o*E. ..      |
+| .  oOo+.  .     |
+|. o +.=*    .    |
+| o + o+ Bo o     |
+|  o o. *S.= o .  |
+| . .  . .. = . o |
+|. .    .  . o + .|
+| oo   .      +   |
+| .o+..           |
++----[SHA256]-----+
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ cat /c/Users/782974/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCtfOQgOITxeUCzbC9X3SsTQQY8QdGDZAAeOpKliA1JvbrF/pFc9sIpml0r92lQR8qkVcSmcl9B3uLJCA9tyRRZhV98VJK2zM5v0kik6XgN529zclDFsWcTUqst3P1o1nmaVcLvhFfOdlgxQyPZBBvduJVsqDhasbrCOAwSk2ILsTuh12Us2NHEbbO5NiR186NNH4qdITc8wUgERXWTG2JiMod9Tsq0P40vnEDGSvZjVdmXgrg272fsS+jEQi0hZwyuzSdf3CoQG4HHgrBS/1oOVq8nhvjjcvB3R5KGNHV5YP7OXsoxbcb/bzMOJ4l/mHHJVtnUhct4DZuCZExTrsXqzEilmuPzyXdT58PvtOzFSgdiJ2a8yKJQY4PsUPz8sGJ1aM3IOeyA0CbjUI2DlRFUH0fsYY0pv+Xh0qokBkQvyEMe5Zz5h76Kag0NY2WFnYkHPKUKAEEIAq6LDHHPSitBLjbfpysLn2vRQ2FvfP42GBwaUbSkPu0lH0sKIGCVlecHGOs9BZFf6hanHaFgCpl1E7Z5tmcleDw7tpfJfTluzisT411wobnglDoL3zZJzLqwjCpZhOE/duqzkjqyl0PA9+qyB64phydtYAAn/b9qft7MCRvm8YDHINUhZDv4iCKspm+AEGtJRY1jIUcgmEfSFYnjjWRX5NNIuyzJW88ESw== narasimhavenna4@gmail.com
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git clone git@github.com:Narasimha183/students.git
+Cloning into 'students'...
+ssh: connect to host github.com port 22: Connection refused
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git clone git@github.com:Narasimha183
+Cloning into 'Narasimha183'...
+ssh: connect to host github.com port 22: Connection refused
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ ssh -T -p 443 git@ssh.github.com
+ssh: connect to host ssh.github.com port 443: Connection refused
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git config --local -e
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ ssh -T -p 443 git@ssh.github.com
+ssh: connect to host ssh.github.com port 443: Connection refused
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ ssh -T -p 443 https://git@ssh.github.com
+ssh: connect to host ssh.github.com port 443: Connection refused
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git clone git@github.com:Narasimha183/students.git
+Cloning into 'students'...
+ssh: connect to host github.com port 22: Connection refused
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git config --local -e
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git config --local -e
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git clone git@github.com:Narasimha183/students.git
+Cloning into 'students'...
+ssh: connect to host github.com port 22: Connection refused
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git config --local -e
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git clone git@github.com:Narasimha183/students.git
+Cloning into 'students'...
+ssh: connect to host github.com port 22: Connection refused
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$ git clone git@github.com:Narasimha183
+Cloning into 'Narasimha183'...
+ssh: connect to host github.com port 22: Connection refused
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+782974@PC298821 MINGW64 ~/Documents/Practice (master)
+$

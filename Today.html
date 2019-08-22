@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<style style="Background-color:Tomato">
+	.navbar {
+             background-color: green; 
+             list-style-type: none;
+             text-align:Left;
+             }
+	.navbar li {
+                 display: inline-block;
+                 font-size: 20px;
+                 padding: 10px;
+                }
+	a:link {
+               text-decoration: none;
+               }
+	td{
+	   text-align:right;
+	  }
+	</style>
+	<body style="Background-color:White">
+	<ul class="navbar">
+	<li><a href="file:///C:/Users/782974/Documents/JS%20Pract/Today.html" target="_blank">Coustomer Search</a></li>
+	<li><a href="Create Order">Create Order</a></li>
+	<li><a href="Customer Input">Customer Input</a></li>
+	<li><a href="Exceptions">Exceptions</a></li>
+	<li><a href="Bulk Orders">Bulk Orders</a></li>
+	<li><a href="Tools">Tools</a></li>
+	<li><a href="Profile">Profile</a></li>
+        </ul>
+	<form>
+	<fieldset>
+	<legend>Coustomer Search</legend>
+	<h><b>Coustomer Search</b><h>
+	<form>
+        	<fieldset>
+		<legend>Search by ONE of these:</legend>
+		<table style="width:100%">
+		<tr>
+		<td>Account ID:<input type:"Text"></td>
+		<td>Order Id:<input Type:"Text"></td>
+		<td>Payment Id:<input Type:"Text"></td>
+		</tr>
+		<tr>
+		<td>Debtor Number:<input type:"Text"></td>
+		<td>OAM Username:<input Type:"Text"></td>
+		<td>Utility Account Number:<input Type:"Text"></td>
+		</tr>
+		<tr>
+		<td>Application ID:<input type:"Text"></td>
+		</tr>
+		</table>
+		</fieldset>
+	</form>
+	<form>
+        	<fieldset>
+		<legend>OR Search by SOME of these:</legend>
+		<table style="width:100%">
+		<tr>
+		<td>First Name:<input type:"Text"></td>
+		<td>Last Name:<input Type:"Text"></td>
+		<td>Email:<input Type:"Text"></td>
+		</tr>
+		<tr>
+		<td>Street:<input type:"Text"></td>
+		<td>Zip/PostalCode:<input Type:"Text"></td>
+		<td>Phone Number:<input Type:"Text"></td>
+		</tr>
+		<tr>
+		<td>ESIID:<input type:"Text"></td>
+		<td>Last 4 SSN:<input Type:"Text"></td>
+		<td>MSIDs:<input Type:"Text"></td>
+		</tr>
+		<tr>
+		<td>Order Status:
+		<select>
+  		<option value="Received">Received</option>
+  		<option value="Not Received">Not Received</option>
+  		</td>
+		</select>
+		</tr>
+		</table>
+		</fieldset>
+		<fieldset>
+		<legend>Options:</legend>
+		<table style="width:100%">
+		<td>Start Date:<input type="date"></td>
+		<td>End Date:<input type="date"></td>
+		<td>ExcludeTestOrders:<input type="Checkbox"></td>
+		<td>Only My Orders:<input type="Checkbox"></td>
+		</table>
+		</filedset>
+	</form>
+	
+	</form>
+	
+	</fieldset>	
+       	<button type="button" style="background-color:Tomato"><a href="https://www.w3schools.com/tags/tag_button.asp"> search</button>
+	</body>
+</html>
